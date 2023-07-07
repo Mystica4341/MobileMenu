@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_icon"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:title="Setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Save"
+        android:id="@+id/save"
+        android:icon="@drawable/ic_document"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="always">
+        <menu >
+            <item
+                android:title="Facebook"
+                android:id="@+id/fb"
+                android:icon="@drawable/ic_fb"
+                app:showAsAction="never" />
+            <item
+                android:title="Twitter"
+                android:id="@+id/tw"
+                android:icon="@drawable/ic_tw"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:title="Open"
+        android:id="@+id/open"
+        android:icon="@drawable/baseline_open_in_new_24"
+        app:showAsAction="never" />
+    <item android:title="Delete"
+        android:id="@+id/delete"
+        android:icon="@drawable/baseline_delete_24"
+        app:showAsAction="never" />
+</menu>
